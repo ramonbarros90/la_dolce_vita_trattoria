@@ -1,0 +1,184 @@
+.cabecario__central {
+    background-color:  #FFFDDE;
+    text-align: center;
+    font-family: 'Monotype Corsiva';
+    font-size: 400%;
+}
+.lista__cabecario {
+    background-color: #FFFDDE;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid;
+    list-style: none;
+    align-items: center;
+    padding: 15px;
+    border-radius: 9px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.lista__cabecario :hover {
+    color: brown;
+}
+
+.marcadagua {
+    background-image: url(/assets/marcadagua.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    opacity: 0.7;
+    
+    
+}
+.texto__central {
+    background-color:#FFFDDE;
+    font-size: 18px;
+    color: black;
+}
+.texto__central :hover {
+    color: rgb(16, 16, 16);
+}
+
+
+
+.rodape {
+    background-color: #FFFDDE;
+    padding: 24px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.bg__about {
+    background-color: #FFFDDE;
+}
+
+.about__cabecario__central {
+    background-color:  #FFFDDE;
+    text-align: center;
+    font-family: 'Monotype Corsiva';
+    font-size: 400%;
+}
+
+.about__lista__cabecario {
+    background-color: #FFFDDE;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid;
+    list-style: none;
+    align-items: center;
+    padding: 15px;
+    border-radius: 9px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.about__lista__cabecario :hover {
+    color: brown;
+}
+
+.about__texto_principal {
+    font-size: 25px;
+}
+
+.about__rodape {
+    background-color: #FFFDDE;
+    padding: 24px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.cardapio__bg {
+    background-color: #FFFDDE;
+    background-image: url(../assets/ad1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.cardapio__cabecario_central {
+    background-color:  #FFFDDE;
+    text-align: center;
+    font-family: 'Monotype Corsiva';
+    font-size: 400%;
+}
+
+.cardapio__lista__cabecario{
+    background-color: #FFFDDE;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid;
+    list-style: none;
+    align-items: center;
+    padding: 15px;
+    border-radius: 9px;
+    font-size: 1.5rem;
+    font-weight: 600;
+
+}
+
+.titulo_cardapio {
+    text-align: center;
+    font-size: 40px;
+}
+
+.cardapio__tabela {
+    background-color: #FFFDDE;
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #000;
+    padding: 10px;
+    text-align: left;
+}
+.sobremesas {
+    background-color: #FFFDDE;
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #000;
+    padding: 10px;
+    text-align: left;
+}
+
+.bebidas {
+    background-color: #FFFDDE;
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #000;
+    padding: 10px;
+    text-align: left;
+}
+
+.cardapio__about__rodape{
+    background-color: #FFFDDE;
+    padding: 24px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.contato__marcadagua{
+    background-color: #FFFDDE;
+    background-image: url(../assets/marcadagua.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    opacity: 0.7;
+}
+
+.contato__cabecario_central {
+    background-color:  #FFFDDE;
+    text-align: center;
+    font-family: 'Monotype Corsiva';
+    font-size: 400%;
+}
+
+.formulario {
+    background-color: #FFFDDE;
+}

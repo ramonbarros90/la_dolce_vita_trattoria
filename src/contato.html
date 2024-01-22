@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato: La Dolce Vita Trattoria</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body class="contato__marcadagua">
+    <h1 class="contato__cabecario_central">La Dolce Vita Trattoria</h1>
+    <header>
+        <ul class="lista__cabecario">
+            <li>
+                <a href="index.html">Página Inicial</a>
+            </li>
+            <li>
+                <a href="aboutme.html" target="_blank">Sobre nós</a>
+            </li>
+            <li>
+                <a href="cardapio.html" target="_blank">Cardápio</a>
+            </li>
+            <li>
+                <a href="">Faça seu pedido cliando aqui!</a>
+            </li>
+            <li>
+                <a href="https://wa.me/5583999151877" target="_blank">WhatsApp</a> 
+                /
+                <!--Para criar um link para o WhatsApp em HTML, você pode usar a URL https://wa.me/
+                seguida do número de telefone em formato internacional completo, sem zeros, parênteses ou hifens.-->
+                <a href="https://www.instagram.com/ramonbarros.90/?igshid=NzZlODBkYWE4Ng%3D%3D&utm_source=qr" target="_blank">Instagram</a>
+            </li>
+        </ul>
+    </header>
+    
+    
+    <form class="formulario">
+        <h2>Faça seu pedido preenchendo os dados a seguir:</h2>
+        
+        Escolha o prato:
+        <select>
+            <option></option>
+            <option>Lasanha à Bolonhesa</option>
+            <option>Spaghetti Carbonara</option>
+            <option>Risotto ai Funghi</option>
+            <option>Osso Buco</option>
+            <option>Bruschetta</option>
+            <option>Caprese Salad</option>
+            <option>Penne alla Vodka</option>
+            <option>Minestrone</option>
+        </select>
+        <hr>
+        Tamanho:<br>
+        <input type="radio" name="tamanho" >Individual<br>
+        <input type="radio" name="tamanho" >Executivo Duplo <br>
+        <input type="radio" name="tamanho" >Família<br>
+        <hr>
+        Sobremesa: <br>
+        <select>
+            <option></option>
+            <option>Não</option>
+            <option>Tiramisu</option>
+            <option>Cannoli</option>
+        </select>
+        <hr>
+        Forma de pagamento:<br>
+        <input type="radio" name="pagamento" >Dinheiro<br>
+        <input type="radio" name="pagamento" >Pix <br>
+        <input type="radio" name="pagamento" >Cartão<br><br>
+
+        Informações complementares:<br>
+        
+        <textarea rows="4" cols="50" placeholder="Em caso de alergia a algum tipo de alimento informar antes de finalizar o pedido!"></textarea>
+        <br><br>
+
+        E-mail:<br>
+        <input type="email" name="email" placeholder="Digite seu e-mail"><br>
+        Senha: <br>
+        <input type="password" name="senha" placeholder="Digite sua senha">
+        <br><br>
+        
+        <input type="submit" value="Enviar">
+        
+        <hr>
+    </form>
+
+</body>
+</html>
